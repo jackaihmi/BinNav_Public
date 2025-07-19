@@ -1,11 +1,11 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 18:02:37
+// 网站数据 - 通过管理后台更新于 2025/7/19 18:04:06
 
 // 站点配置
 export const siteConfig = {
-  "siteName": "BinNav",
-  "siteTitle": "导航",
+  "siteName": "导航页",
+  "siteTitle": "BinNav",
   "siteLogo": "/assets/logo.png",
-  "siteDescription": "二进制导航页面，精选优质站点",
+  "siteDescription": "",
   "icpRecord": "",
   "publicSecurityRecord": "",
   "publicSecurityRecordUrl": ""
