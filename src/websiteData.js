@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 22:38:52
+// 网站数据 - 通过管理后台更新于 2025/7/19 22:46:24
 
 // 站点配置
 export const siteConfig = {
@@ -12,6 +12,54 @@ export const siteConfig = {
 };
 
 export const websiteData = [
+  {
+    "id": 1752936216034,
+    "name": "GitHub Proxy",
+    "description": "",
+    "url": "https://githubjs.jackaihmi.dpdns.org",
+    "category": "category_1752936127444",
+    "tags": [
+      "免费",
+      "工具"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=githubjs.jackaihmi.dpdns.org"
+  },
+  {
+    "id": 1752936280941,
+    "name": "订阅转换",
+    "description": "",
+    "url": "https://conv.aihmi.nyc.mn",
+    "category": "category_1752936127444",
+    "tags": [
+      "免费",
+      "工具"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=conv.aihmi.nyc.mn"
+  },
+  {
+    "id": 1752936332998,
+    "name": "DockerHub",
+    "description": "",
+    "url": "https://docker.aihmi.nyc.mn",
+    "category": "category_1752936127444",
+    "tags": [
+      "免费",
+      "工具"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=docker.aihmi.nyc.mn"
+  },
+  {
+    "id": 1752936377280,
+    "name": "LibreTV",
+    "description": "",
+    "url": "https://libretv.472951.xyz/",
+    "category": "category_1752936127444",
+    "tags": [
+      "免费",
+      "影视"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=libretv.472951.xyz"
+  },
   {
     "id": 1752935927839,
     "name": "Cloudflare",
@@ -28,6 +76,13 @@ export const websiteData = [
 
 // 分类定义 - 支持二级分类
 export const categories = [
+  {
+    "id": "category_1752936127444",
+    "name": "个人服务",
+    "icon": "/assets/tools_icon.png",
+    "special": true,
+    "subcategories": []
+  },
   {
     "id": "category_1752919485776",
     "name": "网络",
