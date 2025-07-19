@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 18:04:06
+// 网站数据 - 通过管理后台更新于 2025/7/19 18:05:23
 
 // 站点配置
 export const siteConfig = {
@@ -27,7 +27,15 @@ export const websiteData = [
 ];
 
 // 分类定义 - 支持二级分类
-export const categories = [];
+export const categories = [
+  {
+    "id": "category_1752919485776",
+    "name": "网络",
+    "icon": "/assets/tools_icon.png",
+    "special": false,
+    "subcategories": []
+  }
+];
 
 // 搜索引擎配置
 export const searchEngines = [
