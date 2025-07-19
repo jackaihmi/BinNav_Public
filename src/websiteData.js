@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 17:59:09
+// 网站数据 - 通过管理后台更新于 2025/7/19 18:02:37
 
 // 站点配置
 export const siteConfig = {
@@ -15,7 +15,7 @@ export const websiteData = [
   {
     "id": 1752912797369,
     "name": "Cloudflare",
-    "description": "",
+    "description": "全球领先的 CDN 和网络安全服务商",
     "url": "https://cloudflare.com",
     "category": "",
     "tags": [
