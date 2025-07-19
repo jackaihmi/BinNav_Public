@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 15:50:10
+// 网站数据 - 通过管理后台更新于 2025/7/19 16:13:46
 
 // 站点配置
 export const siteConfig = {
@@ -11,7 +11,20 @@ export const siteConfig = {
   "publicSecurityRecordUrl": ""
 };
 
-export const websiteData = [];
+export const websiteData = [
+  {
+    "id": 1752912797369,
+    "name": "Cloudflare",
+    "description": "",
+    "url": "https://cloudflare.com",
+    "category": "",
+    "tags": [
+      "网络",
+      "CDN"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=cloudflare.com"
+  }
+];
 
 // 分类定义 - 支持二级分类
 export const categories = [];
