@@ -1,11 +1,11 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 18:05:23
+// 网站数据 - 通过管理后台更新于 2025/7/19 22:38:52
 
 // 站点配置
 export const siteConfig = {
-  "siteName": "导航页",
-  "siteTitle": "BinNav",
+  "siteName": "BinNav",
+  "siteTitle": "导航",
   "siteLogo": "/assets/logo.png",
-  "siteDescription": "",
+  "siteDescription": "二进制导航页面，精选优质站点",
   "icpRecord": "",
   "publicSecurityRecord": "",
   "publicSecurityRecordUrl": ""
@@ -13,11 +13,11 @@ export const siteConfig = {
 
 export const websiteData = [
   {
-    "id": 1752912797369,
+    "id": 1752935927839,
     "name": "Cloudflare",
-    "description": "全球领先的 CDN 和网络安全服务商",
+    "description": "",
     "url": "https://cloudflare.com",
-    "category": "",
+    "category": "category_1752919485776",
     "tags": [
       "网络",
       "CDN"
