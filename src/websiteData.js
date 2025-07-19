@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 15:48:53
+// 网站数据 - 通过管理后台更新于 2025/7/19 15:48:58
 
 // 站点配置
 export const siteConfig = {
@@ -12,19 +12,6 @@ export const siteConfig = {
 };
 
 export const websiteData = [
-  {
-    "id": 40,
-    "name": "Newbie Village",
-    "description": "二进制博客",
-    "url": "https://blog.nbvil.com/",
-    "category": "author",
-    "tags": [
-      "个人博客",
-      "教程分享",
-      "开发心得"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=blog.nbvil.com"
-  },
   {
     "id": 1751813976438,
     "name": "博主云盘",
