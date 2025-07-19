@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 15:48:58
+// 网站数据 - 通过管理后台更新于 2025/7/19 15:49:15
 
 // 站点配置
 export const siteConfig = {
@@ -12,17 +12,6 @@ export const siteConfig = {
 };
 
 export const websiteData = [
-  {
-    "id": 1751813976438,
-    "name": "博主云盘",
-    "description": "分享教程涉及的工具及相关文档代码",
-    "url": "https://pan.nbvil.com/",
-    "category": "author",
-    "tags": [
-      "云盘"
-    ],
-    "icon": "https://icon.nbvil.com/favicon?url=pan.nbvil.com"
-  },
   {
     "id": 1751598590526,
     "name": "YouTube频道",
@@ -249,58 +238,7 @@ export const websiteData = [
 ];
 
 // 分类定义 - 支持二级分类
-export const categories = [
-  {
-    "id": "author",
-    "name": "作者专栏",
-    "icon": "/assets/tech_blogger_avatar.png",
-    "special": true,
-    "subcategories": []
-  },
-  {
-    "id": "recommended",
-    "name": "常用推荐",
-    "icon": "/assets/star.png",
-    "special": false,
-    "subcategories": []
-  },
-  {
-    "id": "category_1751807929795",
-    "name": "AI平台",
-    "icon": "/assets/ai.png",
-    "special": false,
-    "subcategories": [
-      {
-        "id": "category_1751811714830",
-        "name": "AI Chat",
-        "icon": "/assets/Chat-2--Streamline-Kameleon__1_.png",
-        "special": false,
-        "subcategories": []
-      },
-      {
-        "id": "category_1751811752885",
-        "name": "AI Code",
-        "icon": "/assets/Browser-Code.png",
-        "special": false,
-        "subcategories": []
-      }
-    ]
-  },
-  {
-    "id": "dev_tools",
-    "name": "开发工具",
-    "icon": "/assets/Xcode--Streamline-Svg-Logos.png",
-    "special": false,
-    "subcategories": []
-  },
-  {
-    "id": "friend_links",
-    "name": "友情链接",
-    "icon": "/assets/link.png",
-    "special": false,
-    "subcategories": []
-  }
-];
+export const categories = [];
 
 // 搜索引擎配置
 export const searchEngines = [
