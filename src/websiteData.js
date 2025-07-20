@@ -1,4 +1,4 @@
-// 网站数据 - 通过管理后台更新于 2025/7/19 22:46:24
+// 网站数据 - 通过管理后台更新于 2025/7/20 14:36:21
 
 // 站点配置
 export const siteConfig = {
@@ -71,6 +71,57 @@ export const websiteData = [
       "CDN"
     ],
     "icon": "https://icon.nbvil.com/favicon?url=cloudflare.com"
+  },
+  {
+    "id": 1752993129975,
+    "name": "GitHub",
+    "description": "全球领先的代码托管与协作平台",
+    "url": "https://github.com",
+    "category": "category_1752919485776",
+    "tags": [
+      "免费",
+      "开源"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=github.com"
+  },
+  {
+    "id": 1752993250786,
+    "name": "ChatGPT",
+    "description": "OpenAI打造的智能对话工具",
+    "url": "https://chatgpt.com",
+    "category": "category_1752993175889",
+    "tags": [
+      "工具",
+      "AI",
+      "聊天"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=chatgpt.com"
+  },
+  {
+    "id": 1752993325178,
+    "name": "Gemini",
+    "description": "谷歌推出的多模态AI模型",
+    "url": "https://gemini.google.com",
+    "category": "category_1752993175889",
+    "tags": [
+      "工具",
+      "AI",
+      "聊天"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=google.com"
+  },
+  {
+    "id": 1752993376760,
+    "name": "Grok",
+    "description": "xAI创造的智能对话工具",
+    "url": "https://grok.com",
+    "category": "category_1752993175889",
+    "tags": [
+      "工具",
+      "AI",
+      "聊天"
+    ],
+    "icon": "https://icon.nbvil.com/favicon?url=grok.com"
   }
 ];
 
@@ -86,6 +137,13 @@ export const categories = [
   {
     "id": "category_1752919485776",
     "name": "网络",
+    "icon": "/assets/tools_icon.png",
+    "special": false,
+    "subcategories": []
+  },
+  {
+    "id": "category_1752993175889",
+    "name": "AI",
     "icon": "/assets/tools_icon.png",
     "special": false,
     "subcategories": []
@@ -131,5 +189,5 @@ export const siteStats = {
   totalSites: websiteData.length,
   totalCategories: categories.length,
   totalTags: [...new Set(websiteData.flatMap(site => site.tags || []))].length,
-  lastUpdated: "2025-07-19"
+  lastUpdated: "2025-07-20"
 };
